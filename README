@@ -1,8 +1,13 @@
 This is a module for interacting with the pastehtml.com API (http://pastehtml.com/help/api)
 
 
-example usage:
+INSTALLATION
+============
+npm install pastehtml
 
+
+USAGE
+=====
 var pastehtml = require('pastehtml');
 pastehtml.create("<h1>Hello, World!</h1>", "html", function(url) {
   console.log(url); }
