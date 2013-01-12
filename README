@@ -10,5 +10,5 @@ USAGE
 =====
 var pastehtml = require('pastehtml');
 pastehtml.create("<h1>Hello, World!</h1>", "html", function(url) {
-  console.log(url); }
-);
+  console.log("Your content is available at: " + url);
+});
